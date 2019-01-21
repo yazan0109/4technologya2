@@ -1253,9 +1253,11 @@ body .theme-button:hover span {opacity: 1;}
   position: absolute;
   z-index: 1;
 }
-.about-cryto.style-two .single-box:first-child {top:155px;left:-196px;}
-.about-cryto.style-two .single-box:nth-child(2) {top:-125px;right:50px;}
-.about-cryto.style-two .single-box:nth-child(3) {bottom:-175px;right:50px;}
+.about-cryto.style-two .single-box:first-child {top:-150px;left:-156px;}
+.about-cryto.style-two .single-box:nth-child(2) {top:-105px;right:50px;}
+.about-cryto.style-two .single-box:nth-child(3) {bottom:-235px;right:50px;}
+.about-cryto.style-two .single-box:nth-child(4) {top:350px;left:-156px;}
+
 .about-cryto.style-two .single-box h3 {padding: 22px 0;}
 /*---------------- Our Feature Three ------------------*/
 .our-features-three {
@@ -2088,4 +2090,8 @@ h3 {
 .box-project {
     margin: 500px 100px
     
+}
+
+.percentage {
+    margin-right: 90px;
 }

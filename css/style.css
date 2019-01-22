@@ -2075,8 +2075,9 @@ h3 {
 
 .logo {
     color: white;
-    font-weight:900;
+    font-weight: 400;
     font-size: 40px;
+    font-family: 'Baloo', sans-serif;
 }
 
 .telephone {

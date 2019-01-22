@@ -2103,3 +2103,11 @@ h3 {
     left: -350px;
     z-index: -1;
 }
+
+.manychat  {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 9999;
+
+}

@@ -836,10 +836,10 @@ body .theme-button:hover span {opacity: 1;}
   z-index: 1;
 }
 .apps-overview .inner-wrapper .x-mockup {
-  position: absolute;
-  left: 50px;
-  bottom:-165px;
-  z-index: 1;
+ position: absolute;
+ left: -50px;
+ bottom: 0px;
+ z-index: 1;
 }
 .apps-overview.color-two {background: #111ba8;margin-bottom: 0;}
 .apps-overview.color-two .inner-wrapper .button-group li a:hover {background: #00c9d7;color: #fff;}
@@ -2097,3 +2097,9 @@ h3 {
 
 }
 
+.shape2 {
+    position: absolute;
+    top: -155px;
+    left: -350px;
+    z-index: -1;
+}

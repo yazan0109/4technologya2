@@ -2110,5 +2110,10 @@ h3 {
   bottom: 5px;
   right: 10px;
   z-index: 9999;
+}
 
+.box-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -2129,6 +2129,6 @@ h3 {
 }
 
 .newsletter {
-    display: block !important;
+    display: block;
     margin: 10px auto 0;
 }

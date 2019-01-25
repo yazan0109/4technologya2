@@ -1040,7 +1040,10 @@ body .theme-button:hover span {opacity: 1;}
   background: rgba(0,0,0,0.53);
   padding: 110px 0 140px;
 }
-.contact-us-one .theme-title h2 {color: #fff;}
+.contact-us-one .theme-title h2 {color: #fff;
+    margin-top: -100px;
+}
+
 .contact-us-one .theme-title p {
   font-size: 20px;
   color: #fff;
@@ -1054,23 +1057,26 @@ body .theme-button:hover span {opacity: 1;}
   padding: 65px 85px 60px;
   position: relative;
   z-index: 1;
+    text-align: center;
 }
 .contact-us-one form label {
   font-family: 'brandon_grotesquemedium';
   color: #3a3c4e;
   display: block;
   margin-bottom: 10px;
+
 }
 .contact-us-one form input {
-    display: block;
-    margin: 20px auto;
+  display: block;
+  margin: 20px auto;
   width: 50%;
   height: 55px;
   border: none;
   border-radius: 15px;
   padding: 0 15px;
   font-size: 16px;
-      box-shadow: 0px 3px 60px 0px rgba(166, 188, 206, 0.55);
+  box-shadow: 0px 3px 60px 0px rgba(166, 188, 206, 0.55);
+
 
 }
 .contact-us-one form input:focus {box-shadow: 0px 3px 16px 0px rgba(63, 53, 53, 0.07);}
@@ -2121,13 +2127,14 @@ h3 {
     
 }
 
-.button {
+.button-newsletter {
+    display: block;
+    margin: auto 0;
     width: 200px !important;
     line-height: 50px;
     border-radius: 30px;
     color: #fff;
     text-align: center;
-    margin-bottom: 28px;
     background: linear-gradient( 45deg, rgb(0,166,253) 0%, rgb(0,208,223) 100%);
     
 }
@@ -2201,3 +2208,9 @@ h3 {
 .newsletter-text {
     font-size: 50px;
 }
+
+.email-newsletter {
+    display: block;
+    margin:auto 0;
+}
+

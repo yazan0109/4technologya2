@@ -1062,14 +1062,16 @@ body .theme-button:hover span {opacity: 1;}
   margin-bottom: 10px;
 }
 .contact-us-one form input {
-  width: 100%;
+    display: block;
+    margin: 20px auto;
+  width: 50%;
   height: 55px;
   border: none;
-  background: #f9f9f9;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 0 15px;
   font-size: 16px;
-  margin-bottom: 30px;
+      box-shadow: 0px 3px 60px 0px rgba(166, 188, 206, 0.55);
+
 }
 .contact-us-one form input:focus {box-shadow: 0px 3px 16px 0px rgba(63, 53, 53, 0.07);}
 .contact-us-one form button {
@@ -1158,6 +1160,8 @@ body .theme-button:hover span {opacity: 1;}
   color: rgb(33,33,33,0.7);
   display: block;
 }
+
+
 .theme-footer .bottom-footer {padding: 45px 0;}
 .theme-footer .bottom-footer .copyright {float: left;font-size: 17px;line-height: 34px;}
 .theme-footer .bottom-footer ul {float: right;}
@@ -1249,14 +1253,14 @@ body .theme-button:hover span {opacity: 1;}
   background: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 70px 0px rgba(139, 152, 171, 0.07);
-  padding: 85px 40px 85px;
+  padding: 85px 40px 10px;
   position: absolute;
   z-index: 1;
 }
 .about-cryto.style-two .single-box:first-child {top:-150px;left:-156px;}
 .about-cryto.style-two .single-box:nth-child(2) {top:-105px;right:50px;}
-.about-cryto.style-two .single-box:nth-child(3) {bottom:-235px;right:50px;}
-.about-cryto.style-two .single-box:nth-child(4) {top:350px;left:-156px;}
+.about-cryto.style-two .single-box:nth-child(3) {bottom:-115px;right:50px;}
+.about-cryto.style-two .single-box:nth-child(4) {top:320px;left:-156px;}
 
 .about-cryto.style-two .single-box h3 {padding: 22px 0;}
 /*---------------- Our Feature Three ------------------*/
@@ -2159,7 +2163,7 @@ h3 {
     text-align: center;
     background-image: linear-gradient(#00B4F2, #00C7E5);
     border-radius: 5px;
-    margin-top: 17px;
+    margin-top: 87px;
 }
 
 .pack-signup:hover {
@@ -2179,4 +2183,13 @@ h3 {
 
 .platinium-btn {
     margin-top: 86px;
+}
+
+
+.pack-gold img {
+    position: absolute;
+    top: -40px;
+    right: -10px;
+    width: 80px;
+    height: auto;
 }

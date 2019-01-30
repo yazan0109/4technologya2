@@ -175,6 +175,7 @@
 .our-feature-five .text .learn-more  {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+        border-radius: 50px 50px 50px 50px
  }
 .tran4s,.our-features-one .single-feature .icon-box img,.hover-effect-one .single-blog-post .image-box img {
   -webkit-transition: all 0.4s ease-in-out;
